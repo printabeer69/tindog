@@ -1,0 +1,175 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.h33 {
+    font-family: 'Montserrat-Black', sans-serif;
+    size: 4.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+body {
+    font-family: "sans-sarif";
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: xx-large;
+}
+
+.iphoneimg {
+    width: 15%;
+    transform: rotate(25deg);
+    position: absolute;
+    text-align: start;
+    z-index: 1;
+    top: 1.5in;
+    bottom: 1in;
+}
+
+#features {
+    padding: 10% 15% 7%;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.h444 {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+p {
+    color: gray;
+}
+
+.icon {
+    color: orangered;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: black;
+}
+
+.h444:hover {
+    color: darkmagenta;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2:hover {
+    color: maroon;
+}
+
+h2 {
+    size: 3rem;
+    font-weight: bolder;
+    line-height: 3.5rem;
+    line-gap-override: 4;
+}
+
+.testimonial-img-2 {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.testimonial-image-3 {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.h69 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.h699 {
+    text-align: center;
+}
+
+.pricingcolumn {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer {
+    text-align: center;
+    margin: 0px;
+}
+
+.pa:hover {
+    color: black;
+}
+
+.hehe5 {
+    font-family: 'Montserrat-Black', sans-serif;
+    size: 4.5rem;
+    line-height: 3rem;
+    color: white;
+    font-weight: 900;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .iphoneimg {
+        position: static;
+        transform: rotate(0);
+    }
+}
